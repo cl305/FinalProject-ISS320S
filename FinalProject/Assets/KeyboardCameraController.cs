@@ -4,7 +4,7 @@ using System.Collections;
 public class KeyboardCameraController : MonoBehaviour {
 
 	public float rotationSpeed=200.0f;
-	public float translationSpeed=200.0f;
+	public float translationSpeed=20000.0f;
 
 	// Use this for initialization
 	void Start ()
