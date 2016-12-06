@@ -45,8 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\FPSWalkerEnhanced.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\SmoothMouseLook.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxChanger.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxRotator.cs" />
+     <Compile Include="Assets\GUIScript.cs" />
+     <Compile Include="Assets\GameMode.cs" />
      <Compile Include="Assets\KeyboardCameraController.cs" />
-     <Compile Include="Assets\menu.cs" />
+     <Compile Include="Assets\TitleMenu.cs" />
+     <Compile Include="Assets\addCollisionScript.cs" />
+     <Compile Include="Assets\bgAudio.cs" />
+     <Compile Include="Assets\bumpCollision.cs" />
+     <Compile Include="Assets\cakeCollision.cs" />
+     <Compile Include="Assets\cameraController.cs" />
+     <Compile Include="Assets\rotateCake.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
